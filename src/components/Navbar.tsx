@@ -18,7 +18,6 @@ export function Navbar() {
                     About
                 </Nav.Link>
             </Nav>
-            {cartQuantity > 0 && ( 
             <Button  
                 onClick={openCart}
                 style={{ width: "3rem", height: "3rem", position: "relative"}}
@@ -43,7 +42,6 @@ export function Navbar() {
                     {cartQuantity}
                 </div>
             </Button>
-            )}
         </Container>
     </NavbarBs>
     )
