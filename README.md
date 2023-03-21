@@ -1,5 +1,7 @@
 # carrito_react
 
+https://amazing-concha-3c0d04.netlify.app/
+
 npm create vite .
 
 npm install
